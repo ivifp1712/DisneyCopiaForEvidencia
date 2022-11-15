@@ -1,1 +1,20 @@
+*{
+    --riple-color: white !important;
+}
+.tab-selected{
+    color: var(--riple-color) !important;
+}
 
+ion-tab-bar{
+    border: 0px !important;
+    margin-bottom: 2% !important;
+    --background: lineargradient(90deg, #2B3245 0%, #1A1C29  100%) !important;
+
+}
+ion-tab-button{
+    --background: lineargradient(90deg, #2B3245 0%, #1A1C29  100%) !important;
+
+}
+body{
+    background-color: lineargradient(90deg, #2B3245 0%, #1A1C29  100%) !important;
+}

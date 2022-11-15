@@ -1,0 +1,64 @@
+#disneyLogo{
+    width: 25% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+}
+#tabhome{
+    color: var(--ion-color-selected) !important;
+}
+ion-col{
+    padding: 2% !important;
+}
+#lapublicard{
+    width: 100% !important;
+    height: 180px !important;
+    margin: 0% !important;
+    margin: 0 auto !important;
+}
+// #companiesLogos{
+//     width: 100% !important;
+//     height: auto !important;
+//     margin: 0 auto !important;
+// }
+
+.covers{
+    width: 40% !important;
+    padding: 0% !important;
+    //margin-left: -25% !important;
+    margin-right: -5% !important;
+}
+.covers > *{
+    margin-top: 1% !important;
+}
+.Scovers{
+    padding: 0% !important;
+}
+h5{
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: white !important;
+    margin-left: 2% !important;
+    padding: 0% !important;
+    font-family: 'DisneyFont' !important;
+}
+
+ion-button{
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+ion-button > *{
+    margin: 0% !important;
+    padding: 0% !important;
+}
+.button-native{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0% !important;
+    padding: 0% !important;
+}
+ion-card-content{
+    padding: 0% !important;
+    margin: 0% !important;
+}

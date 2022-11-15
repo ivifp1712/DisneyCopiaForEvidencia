@@ -1,0 +1,62 @@
+ion-searchbar{
+    --border-radius: 0px !important;
+    --background: #ffffff !important;
+    --color: #000000 !important;
+}
+ion-toolbar{
+    margin-top: 5% !important;
+}
+ion-col{
+    padding: 0% !important;
+}
+#subtitle{
+    font-size: 0.75rem !important;
+}
+// Centrar un elemento
+ion-col{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+ion-col{
+    padding: 0% !important;
+}
+ion-row{
+    padding: 0% !important;
+}
+#grande{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+#grande {
+    margin-top: 5% !important;
+    padding: 0% !important;
+}
+ion-card{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 5% !important;
+    padding: 10% !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    border-radius: 5px !important;
+    background: #161824 !important;
+}
+// centrar
+ion-card-content{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white !important;
+    background-color: transparent !important;
+}
+ion-card-content > *{
+    margin: 10% !important;
+    font-family: 'DisneyFont' !important;
+}
+
+// #2B3245
+// #1A1C29
