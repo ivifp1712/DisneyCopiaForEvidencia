@@ -1,3 +1,6 @@
+*{
+    position: relative !important;
+}
 #disneyLogo{
     width: 25% !important;
     height: auto !important;
@@ -9,12 +12,6 @@
 ion-col{
     padding: 2% !important;
 }
-#lapublicard{
-    width: 100% !important;
-    height: 180px !important;
-    margin: 0% !important;
-    margin: 0 auto !important;
-}
 // #companiesLogos{
 //     width: 100% !important;
 //     height: auto !important;
@@ -25,7 +22,7 @@ ion-col{
     width: 40% !important;
     padding: 0% !important;
     //margin-left: -25% !important;
-    margin-right: -5% !important;
+    margin-right: -3% !important;
 }
 .covers > *{
     margin-top: 1% !important;
@@ -37,7 +34,7 @@ h5{
     font-size: 1rem !important;
     font-weight: 500 !important;
     color: white !important;
-    margin-left: 2% !important;
+    margin-left: 4% !important;
     padding: 0% !important;
     font-family: 'DisneyFont' !important;
 }
@@ -61,4 +58,50 @@ ion-button > *{
 ion-card-content{
     padding: 0% !important;
     margin: 0% !important;
+}
+
+app-publicard{
+    display: block !important;
+    width: 90% !important;
+    box-shadow: 1px 1px 1px 1px rgb(76, 75, 75) !important;
+}
+
+.centrar{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+// responsive a partir de 100px horizontales
+@media (min-width: 1000px) {
+    .covers{
+        width: 25% !important;
+        padding: 0% !important;
+        //margin-left: -25% !important;
+        margin-right: -15% !important;
+    }
+    // centrar img dentro de elemnto div
+    // app-publicard{
+    //     display: block !important;
+    //     width: 100% !important;
+    // }
+    app-publicard{
+        display: block !important;
+        width: 50% !important;
+        box-shadow: 1px 1px 1px 1px rgb(76, 75, 75) !important;
+    }
+    .publicard{
+        width: 75% !important;   
+        height: 75% !important;
+    }
+    #disneyLogo{
+        width: 5% !important;
+    }
+    
+    ion-tabs{
+        height: 10% !important;
+    }
 }

@@ -1,8 +1,11 @@
-ion-header{
-    margin-top: 25% !important;  
-}
-
 
 ion-title{
     --color: #fff !important;
+}
+//center elements
+ion-col{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: left !important;
+    flex-direction: column !important;
 }
