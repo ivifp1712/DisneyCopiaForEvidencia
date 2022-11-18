@@ -1,0 +1,44 @@
+*{
+    font-family: 'DisneyFont' !important;
+}
+
+.perfiles{
+    width: 40% !important;
+    padding: 0% !important;
+    //margin-left: -25% !important;
+    margin-right: -15% !important;
+}
+.centrar{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.eperfiles{
+    display: inline-block !important;
+    width: auto !important;
+    padding: 5% !important;
+    border-radius: 3% !important;
+    background-color: rgb(87, 87, 87) !important;
+    box-shadow: 1px 1px 1px 1px rgb(76, 75, 75) !important;
+    font-family: 'DisneyFont' !important;
+    font-size: 1rem !important;
+}
+ion-list{
+    padding: 0% !important;
+}
+.item-native{
+    padding: 0% !important;
+    padding-inline-start: 0% !important;
+}
+ion-label{
+    border-bottom: 1px solid #fff !important;
+}
+.version{
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+    color: rgb(184, 179, 179) !important;
+    padding: 0% !important;
+    font-family: 'DisneyFont' !important;
+}
